@@ -2,7 +2,14 @@
   "name": "nosmoking",
   "homepage": "https://alexmargineanu.github.io/nosmoking/",
   "version": "0.1.0",
-  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexmargineanu/nosmoking"
+  },
+  "author": {
+    "name": "Alexandru Margineanu",
+    "email": "alex.margineanu@gmail.com"
+  },  
   "dependencies": {
     "@radix-ui/colors": "0.1.8",
     "@radix-ui/react-icons": "1.1.1",
