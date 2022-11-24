@@ -55,8 +55,7 @@ const CurrenciesSelect = () => {
   )
 };
 
-const Settings = () => {
-  
+const Settings = ({open = false}) => {
   const [date, setDate] = useState(() => {
     const savedData = localStorage.getItem("date");
     return savedData ? JSON.parse(savedData) : "";
@@ -77,7 +76,7 @@ const Settings = () => {
   }, [date, price, packs]);
 
   return (
-    <Popover>
+    <Popover defaultOpen={open}>
       <PopoverTrigger asChild>
         <IconButton aria-label="Update settings" css={{ marginTop: 10 }}>
           <MixerHorizontalIcon />

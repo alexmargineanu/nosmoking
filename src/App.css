@@ -12,11 +12,11 @@ body {
 
 .App {
   text-align: center;
-    background-image: linear-gradient(330deg, var(--purple9) 0%, var(--indigo9) 100%);
-  }
+  background-image: linear-gradient(330deg, var(--purple9) 0%, var(--indigo9) 100%);
+  min-height: 100vh;
+}
 
 .App-header {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
