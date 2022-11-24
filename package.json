@@ -1,5 +1,6 @@
 {
-  "name": "no-smoking",
+  "name": "nosmoking",
+  "homepage": "https://alexmargineanu.github.io/nosmoking/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
