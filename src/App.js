@@ -45,7 +45,7 @@ function App() {
   } else {
     return (
       <div className="App">
-        <header className="App-header">
+        <header className="App-settings">
           <Settings open={true} />
         </header>
       </div>
