@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nosmoking/static/css/main.98d7b766.css",
+    "main.js": "/nosmoking/static/js/main.346e18fb.js",
+    "index.html": "/nosmoking/index.html",
+    "main.98d7b766.css.map": "/nosmoking/static/css/main.98d7b766.css.map",
+    "main.346e18fb.js.map": "/nosmoking/static/js/main.346e18fb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98d7b766.css",
+    "static/js/main.346e18fb.js"
+  ]
+}
