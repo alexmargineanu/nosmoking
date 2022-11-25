@@ -89,16 +89,16 @@ const Settings = ({open = false}) => {
           </Text>
           <Fieldset>
             <Label htmlFor="date">Date when you've stopped smoking</Label>
-            <Input id="date" defaultValue={date} onChange={(e)=>setDate(e.target.value)} placeholder="mm/dd/yyyy" />
+            <Input id="date" type="date" defaultValue={date} onChange={(e)=>setDate(e.target.value)} />
           </Fieldset>
           <Fieldset>
             <Label htmlFor="packs">How many packs per week</Label>
-            <Input id="packs" defaultValue={packs} onChange={(e)=>setPacks(e.target.value)} />
+            <Input type="number" id="packs" defaultValue={packs} onChange={(e)=>setPacks(e.target.value)} />
           </Fieldset>
           <Fieldset>
             <Label htmlFor="price">Price per pack</Label>
             <Box>
-              <Input id="price" css={{width: '48%', marginRight: 10}}  defaultValue={price} onChange={(e)=>setPrice(e.target.value)} />
+              <Input type="number" id="price" css={{width: '48%', marginRight: 10}}  defaultValue={price} onChange={(e)=>setPrice(e.target.value)} />
               <CurrenciesSelect />
             </Box>
           </Fieldset>
