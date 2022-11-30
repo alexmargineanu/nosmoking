@@ -10,7 +10,7 @@ const Count = ({number, duration = 1}) => {
 
     const incrementTime = (duration / number) * 1000;
     const timer = setInterval(() => {
-      setCount(start++);
+      setCount(++start);
       if (start === number) clearInterval(timer);
     }, incrementTime);
   }, [number, duration]);
