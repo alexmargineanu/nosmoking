@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/nosmoking/static/css/main.6eebda5e.css",
-    "main.js": "/nosmoking/static/js/main.449bef26.js",
+    "main.js": "/nosmoking/static/js/main.851b2500.js",
     "index.html": "/nosmoking/index.html",
     "main.6eebda5e.css.map": "/nosmoking/static/css/main.6eebda5e.css.map",
-    "main.449bef26.js.map": "/nosmoking/static/js/main.449bef26.js.map"
+    "main.851b2500.js.map": "/nosmoking/static/js/main.851b2500.js.map"
   },
   "entrypoints": [
     "static/css/main.6eebda5e.css",
-    "static/js/main.449bef26.js"
+    "static/js/main.851b2500.js"
   ]
 }
